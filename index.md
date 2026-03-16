@@ -33,3 +33,43 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 ## 5. Contact Us
 
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us. Please refer to our Support Document for contact information.
+
+
+
+# Support for IA Auditor
+
+Thank you for using the "IA Auditor" Power BI custom visual. We are committed to providing you with an excellent experience.
+
+## Getting Started
+
+1. **Installation:** Import the `.pbiviz` file into your Power BI report via the "Import a visual from a file" option.
+2. **Setup:** Open the formatting pane of the visual to configure your API keys for the AI providers (OpenAI or Google Gemini).
+3. **Usage:** Map your data fields into the visual's data roles to start analyzing and visualizing data quality issues.
+
+## Frequently Asked Questions (FAQ)
+
+**Q: Why do I see a "Model Not Found" error when using Google Gemini?**
+A: Please ensure you are using the correct API endpoint. Our visual requires the standard `v1` endpoint (not `v1beta`). Make sure your API key has access to the specified model (e.g., `gemini-1.5-flash`).
+
+**Q: How do I customize the generated insights?**
+A: You can configure the system prompts and AI parameters in the visual's formatting pane. Ensure your rules and settings are separated correctly (e.g., by commas or newlines if applicable).
+
+**Q: Where does my data go?**
+A: Data is processed in real-time between your Power BI client and the external API (OpenAI or Google Gemini) you configured. We do not store or track any of your data. Please see our [Privacy Policy](./PRIVACY_POLICY.md) for more details.
+
+**Q: Why doesn't the visual display properly?**
+A: IA Auditor requires the `WebAccess` privilege to communicate with external APIs. If your organizational settings block external web requests from custom visuals, the visual will fail to retrieve insights. Check with your Power BI administrator.
+
+## Troubleshooting
+
+1. **Verify API Keys:** Ensure that the API keys entered in the formatting pane are valid, have not expired, and have the correct permissions.
+2. **Network Access:** Ensure that your network environment allows outbound HTTPS connections to `api.openai.com` or `generativelanguage.googleapis.com`.
+3. **Visual Size:** We recommend resizing the visual container to allow the responsive layout (KPI cards and data tables) to render correctly without cutting off information.
+
+## Contact Information
+
+For further assistance, bug reports, or feature requests, please reach out to us:
+
+- **Email Support:** [angpach@live.com]
+  
+Please provide as much detail as possible, including error messages, when reaching out for support.
