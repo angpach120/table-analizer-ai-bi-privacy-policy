@@ -1,12 +1,12 @@
-# Privacy Policy for IA Auditor
+# Privacy Policy for Table Analyzer Artificial Intelligence
 
 **Last Updated: [Current Date]**
 
-This Privacy Policy explains how "IA Auditor" ("we", "us", or "our") collects, uses, and discloses information about you when you use our Power BI custom visual.
+This Privacy Policy explains how "Table Analyzer Artificial Intelligence" ("we", "us", or "our") collects, uses, and discloses information about you when you use our Power BI custom visual.
 
 ## 1. Information Collection and Use
 
-IA Auditor is a Power BI custom visual that analyzes your data to automatically visualize data quality issues using intelligent AI algorithms. 
+Table Analyzer Artificial Intelligence is a Power BI custom visual that analyzes your data to automatically visualize data quality issues using intelligent AI algorithms. 
 
 To provide this functionality, the visual may send data (such as selected data points, summaries, or metadata) to external AI services, specifically **OpenAI** and **Google Gemini**, depending on your configuration.
 
@@ -36,9 +36,9 @@ If you have any questions or suggestions about our Privacy Policy, do not hesita
 
 
 
-# Support for IA Auditor
+# Support for Table Analyzer Artificial Intelligence
 
-Thank you for using the "IA Auditor" Power BI custom visual. We are committed to providing you with an excellent experience.
+Thank you for using the "Table Analyzer Artificial Intelligence" Power BI custom visual. We are committed to providing you with an excellent experience.
 
 ## Getting Started
 
@@ -58,7 +58,7 @@ A: You can configure the system prompts and AI parameters in the visual's format
 A: Data is processed in real-time between your Power BI client and the external API (OpenAI or Google Gemini) you configured. We do not store or track any of your data. Please see our [Privacy Policy](./PRIVACY_POLICY.md) for more details.
 
 **Q: Why doesn't the visual display properly?**
-A: IA Auditor requires the `WebAccess` privilege to communicate with external APIs. If your organizational settings block external web requests from custom visuals, the visual will fail to retrieve insights. Check with your Power BI administrator.
+A: Table Analyzer Artificial Intelligence requires the `WebAccess` privilege to communicate with external APIs. If your organizational settings block external web requests from custom visuals, the visual will fail to retrieve insights. Check with your Power BI administrator.
 
 ## Troubleshooting
 
