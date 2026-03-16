@@ -1,6 +1,6 @@
 # Privacy Policy for Table Analyzer Artificial Intelligence
 
-**Last Updated: [Current Date]**
+**Last Updated: 15 de Marzo del 2026**
 
 This Privacy Policy explains how "Table Analyzer Artificial Intelligence" ("we", "us", or "our") collects, uses, and discloses information about you when you use our Power BI custom visual.
 
